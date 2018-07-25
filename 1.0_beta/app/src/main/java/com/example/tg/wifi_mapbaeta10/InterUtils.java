@@ -7,7 +7,7 @@ import java.net.URLEncoder;
 
 public class InterUtils {
     public boolean WifiPost(String json_string, String lantitude, String longitude){
-        String path = "http://120.77.152.1690/wifiproject/test.php";//调试修改
+        String path = "http://120.77.152.169/wifiproject/test.php";//调试修改
         String json_data = json_string;
         try{
             URL url = new URL(path);
